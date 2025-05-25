@@ -1,3 +1,5 @@
+RM:556760 Adriano Barutti
+Rm:557245 Vitor Kenzo
 ## Getting Started
 
 Welcome to the Vagamoto project! This project is a parking space management system built with Spring Boot and Java. It allows users to manage parking spaces and vehicles, providing a RESTful API for easy integration.
