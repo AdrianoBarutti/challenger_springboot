@@ -1,0 +1,27 @@
+spring:
+  cache:
+    type: redis
+    redis:
+      time-to-live: 60000
+
+  data:
+    redis: # Redis Cloud configuration
+      host: 'redis-19692.c80.us-east-1-2.ec2.redns.redis-cloud.com'
+      port: 19692
+      username: default
+      password: 'KqH0LCWmnjtoBbHYkWi8tpO6mgUd77XF'
+      
+  datasource: # Database configuration
+    driver-class-name: org.sqlite.JDBC
+    url: jdbc:sqlite:data/vagamoto.db
+    username: root
+    password: root
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.community.dialect.SQLiteDialect
+
+
